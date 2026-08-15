@@ -20,5 +20,7 @@ int main() {
     cout << "Password management: Enabled" << endl;
     cout << "Two-factor authentication: Enabled" << endl;
 
+    cout << "Settings saved successfully." << endl;
+
     return 0;
 }
