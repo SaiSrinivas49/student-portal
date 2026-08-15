@@ -20,11 +20,13 @@ int main() {
     cout << "Enter your phone number: ";
     getline(cin, phone);
 
-    cout << "Profile Information";
+    cout << "\nProfile Information\n";
     cout << "Student ID: " << studentId << endl;
     cout << "Name: " << name << endl;
     cout << "Email: " << email << endl;
     cout << "Phone: " << phone << endl;
+
+    cout << "\nProfile setup completed successfully." << endl;
 
     return 0;
 }
