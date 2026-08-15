@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-    cout << "===== Student Dashboard =====" << endl;
-    cout << "Welcome to Student Portal" << endl;
+    
+    cout << "Welcome to Student Portal - Student View" << endl;
 
     cout << "\nStudent Summary" << endl;
     cout << "Student ID: STU001" << endl;
