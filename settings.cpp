@@ -22,5 +22,7 @@ int main() {
 
     cout << "Settings saved successfully." << endl;
 
+    cout << "User preferences are ready." << endl;
+
     return 0;
 }
