@@ -13,5 +13,10 @@ int main() {
     cout << "Semester: 4" << endl;
     cout << "Attendance: 92%" << endl;
 
+    cout << "\nDashboard Statistics" << endl;
+    cout << "Courses Enrolled: 6" << endl;
+    cout << "Assignments Completed: 8" << endl;
+    cout << "Pending Assignments: 2" << endl;
+
     return 0;
 }
