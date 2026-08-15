@@ -15,3 +15,11 @@ Compile the file using the following command
 
 //bash
 g++ main.cpp -o main.out
+
+# Setup
+
+Clone the repository and move into the project directory:
+
+//bash
+git clone <repository-url>
+cd student-portal
