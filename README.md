@@ -1,4 +1,4 @@
-#Student Portal
+# Student Portal
 
 This is a simple command line application developed while demonstrating git commands and workflows
 
@@ -23,3 +23,10 @@ Clone the repository and move into the project directory:
 //bash
 git clone <repository-url>
 cd student-portal
+
+## Usage
+
+After compiling the application, run it using:
+
+//bash
+./student-portal
