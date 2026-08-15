@@ -30,3 +30,10 @@ After compiling the application, run it using the following commands:
 
 //bash
 ./student-portal
+
+# Document Structure
+
+studdent-portal
+--main.cpp
+--Readme.md
+--.gitignore
