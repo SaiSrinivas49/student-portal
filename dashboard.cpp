@@ -19,6 +19,7 @@ int main() {
     cout << "Pending Assignments: 2" << endl;
 
     cout << "Dashboard settings" << endl;
+    cout << "No pending Assignments" << endl;
 
     return 0;
 }
