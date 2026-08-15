@@ -18,5 +18,7 @@ int main() {
     cout << "Assignments Completed: 8" << endl;
     cout << "Pending Assignments: 2" << endl;
 
+    cout << "Dashboard settings" << endl;
+
     return 0;
 }
