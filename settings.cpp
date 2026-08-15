@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    cout << "===== Student Portal Settings =====" << endl;
+    cout << " Student Portal Settings " << endl;
 
     cout << "\nNotification Settings" << endl;
     cout << "Email notifications: Enabled" << endl;
@@ -11,6 +11,10 @@ int main() {
     cout << "\nPrivacy Settings" << endl;
     cout << "Profile visibility: Private" << endl;
     cout << "Email visibility: Private" << endl;
+
+    cout << "\nAccount Preferences" << endl;
+    cout << "Language: English" << endl;
+    cout << "Theme: Light" << endl;
 
     return 0;
 }
