@@ -6,6 +6,7 @@ int main() {
     string name;
     string email;
     string studentId;
+    string phone;
 
     cout << "Enter your student ID: ";
     getline(cin, studentId);
@@ -16,10 +17,14 @@ int main() {
     cout << "Enter your email: ";
     getline(cin, email);
 
-    cout << "\nProfile Information\n";
+    cout << "Enter your phone number: ";
+    getline(cin, phone);
+
+    cout << "Profile Information";
     cout << "Student ID: " << studentId << endl;
     cout << "Name: " << name << endl;
     cout << "Email: " << email << endl;
+    cout << "Phone: " << phone << endl;
 
     return 0;
 }
