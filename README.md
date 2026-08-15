@@ -9,3 +9,9 @@ These are the requirements to build and run the project
 - A terminal or command line environment
 
 The files can be compiled using c++ compilers like gcc
+
+The main.cpp file is located in the student-portal directory
+Compile the file using the following command
+
+//bash
+g++ main.cpp -o main.out
