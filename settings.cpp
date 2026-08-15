@@ -16,5 +16,9 @@ int main() {
     cout << "Language: English" << endl;
     cout << "Theme: Light" << endl;
 
+    cout << "\nAccount Security" << endl;
+    cout << "Password management: Enabled" << endl;
+    cout << "Two-factor authentication: Enabled" << endl;
+
     return 0;
 }
