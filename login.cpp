@@ -10,6 +10,10 @@ bool validPassword(const string& password) {
     return password.length() >= 6;
 }
 
+bool authenticate(const string& username, const string& password) {
+    return validUsername(username) && validPassword(password);
+}
+
 int main() {
     string username;
     string password;
@@ -20,12 +24,10 @@ int main() {
     cout << "Enter password: ";
     cin >> password;
 
-    if (!validUsername(username)) {
-        cout << "Invalid username." << endl;
-    } else if (!validPassword(password)) {
-        cout << "Password must contain at least 6 characters." << endl;
+    if (authenticate(username, password)) {
+        cout << "Login successful." << endl;
     } else {
-        cout << "Login credentials are valid." << endl;
+        cout << "Login failed. Check your credentials." << endl;
     }
 
     return 0;
