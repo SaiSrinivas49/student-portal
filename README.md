@@ -26,7 +26,7 @@ cd student-portal
 
 ## Usage
 
-After compiling the application, run it using:
+After compiling the application, run it using the following commands:
 
 //bash
 ./student-portal
